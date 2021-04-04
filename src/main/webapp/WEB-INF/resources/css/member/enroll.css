@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+    
+*{
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+  list-style: none;
+      
+}
+.wrapper{
+  margin: 0 200px;
+  justify-content: center;
+}
+.img_wrapper,.ul_wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wrapper>div>img{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.wrapper>div{
+  width: 100%;
+}   
+.li_wrapper, li{      
+  width: 400px;
+  font-family: 'Jua', sans-serif;
+  margin-top: 10px;      
+}
+
+.li_wrapper div, input{
+  width: 100%;
+  height: 23px;
+  margin-top: 5px;
+}
+input{
+  border-style: none;
+  border-bottom: 1px solid;
+}
+.li_wrapper>li:nth-child(1){
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+}
+.submitBtn{
+  border: 2px solid;
+  border-radius: 10px;
+  height: 30px;
+}
+.li_wrapper>ol>li>input{
+  width: 50px;      
+}
+
+.li_wrapper>ol{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.li_wrapper>ol>li{
+  width: 280px;
+  margin: 0;
+}
+.li_wrapper>ol>li{
+  margin-bottom: 30px;
+}
+#msg_member_id, #msg_member_pw, #msg_member_repw,
+#msg_member_tel, #msg_member_nick,
+#msg_member_birth{
+    font-size: 12px;
+    display: none;
+}
+#member_id,#member_pw,#member_repw,#member_tel,#member_nick,#member_birth{
+    padding: 0;
+}
+#msg_member_id1, #msg_member_pw1, #msg_member_repw1,
+#msg_member_tel1, #msg_member_nick1,
+#msg_member_gender1{
+  color: red;
+  font-size: 12px;
+}
